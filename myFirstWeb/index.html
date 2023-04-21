@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI PRIMERA WEB</title>
+    <title>My first PHP website</title>
 </head>
 <body>
-    <H1>HELLO WORLD DESDE EL SERVIDOR</H1>
-    <form action="ALGORITMO.PHP" BETHOD="POST">
-        <label for="AGE">INGRESE SU EDAD:</label>
-        <input type="number" NAME="AGE" id="AGE">
-        <BR>
-        <label>FOR=</label>
+    <!--ingresamos el titulo visible para usuario-->
+    <h1>Hello word desde el servidor</h1>
+    <!--ingresamos el nombre del archivo que va a recibir la informacion-->
+    <!--introducimos el post para la informacion dada no se vea en el enlace-->
+    <form action="algoritmo.php" Bethod="Post">
+        <!--ingresar el nombre-->
+        <label for="age">ingrese su edad:</label>
+        <!--funcionalidad para el numero-->
+        <input type="number" name="age" id="age">
+        <br>
+        <!--introducir el nombre el texto y numero-->
+        <label for="name">ingrese su nombre:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <!--un boton para enviar informacion -->
+        <button>Enviar información</button>
     </form>
-
-
 </body>
 </html>
